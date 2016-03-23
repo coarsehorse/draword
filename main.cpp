@@ -31,10 +31,16 @@ char X[] = "#     # #   #   # #     #     # #   #   # #     #";
 char Y[] = "#     ##     # #   #   ###     #      #      #   ";
 char Z[] = "#######     ##    #     #     #    ##     #######";
 
-char d1[] = "   #     ##    # #      #      #      #     ###  ";
+char d1[] = "   #     ##    # #      #      #      #    ##### ";
 char d2[] = " ##### #     #     #   ###   #     #      #######";
-char d3[] = "  ###   #   #      #   ###       #  #   #   ###  ";
+char d3[] = " ##### #     #      # #####       ##     # ##### ";
 char d4[] = "   #  #   #  #  #   # #    # ######      #      #";
+char d5[] = "########      #      ######       #      ####### ";
+char d6[] = "  ##### #     #      # #######    ##     # ##### ";
+char d7[] = "#######      #     #     #     #     #      #    ";
+char d8[] = " ##### #     ##     # ##### #     ##     # ##### ";
+char d9[] = " ####  #    ###    ## #### #      #     # #####  ";
+char d0[] = "  ###   #   # # #   ##  #  ##   # # #   #   ###  ";
 
 char SPACE[] = "                                                 ";
 char exclMark[] = "  ###    ###    ###    ###     #             #   ";
@@ -150,6 +156,18 @@ char *pointOnAlpha(char alpha)
             return d3;
 		case '4':
 			return d4;
+        case '5':
+            return d5;
+        case '6':
+            return d6;
+        case '7':
+            return d7;
+        case '8':
+            return d8;
+        case '9':
+            return d9;
+        case '0':
+            return d0;
 
         case ' ':
             return SPACE;
