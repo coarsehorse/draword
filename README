@@ -1,0 +1,4 @@
+Using compiled programm in terminal:
+$ ./draword "[text_to_output]" [placeholder]
+text_to_output - some text(not very long)
+placeholder - symbol-filler, It'll use for printing letters-images
