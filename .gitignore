@@ -1,0 +1,15 @@
+# Operating System files
+
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+
+# CodeBlocks files
+
+*.cbp
+bin/
+obj/
